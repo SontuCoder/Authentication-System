@@ -35,3 +35,10 @@
 .center-form Form .btn:hover{
     background-color: #166fe5;
 }
+
+#display{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(0, 145, 145);
+}

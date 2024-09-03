@@ -32,11 +32,12 @@ const Login = () => {
             });
             const result =await response.json();
             console.log(result);
+
             if (response.status === 401) {
                 console.log("Unauthorized: Invalid credentials");
             } else if (result && result.user && result.user._id) {
-                navigate("/dashboard");
                 localStorage.setItem("token", result.token);
+                navigate("/dashboard");
             } else {
                 console.log("Unexpected response format or missing user information");
             }

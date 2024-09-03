@@ -21,7 +21,12 @@ function generateRefreashToken(user){
 }
 
 function verifyToken(token){
-    return jwt.verify(token, secretKey);
+    try {
+        return jwt.verify(token, secretKey);
+    } catch (error) {
+        throw new Error("Invalid token");
+    }
 }
+
 
 module.exports = {generateToken, generateRefreashToken, verifyToken};

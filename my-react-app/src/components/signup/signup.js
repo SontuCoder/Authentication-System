@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState}  from 'react'
 import { Button, Form} from 'react-bootstrap';
 import "./signup.css";
 
@@ -8,6 +8,8 @@ const Signup = ()=> {
         email:"",
         password:""
     });
+
+    const [displayName, setDisplayName] = useState("");
 
     const handleInputChange = (event)=>{
         const {name, value}=event.target;
@@ -29,6 +31,7 @@ const Signup = ()=> {
             });
             const result =await response.json();
             console.log(result);
+            setDisplayName(result.user.name);
         } catch(error){
             console.log(error.message);
         } finally {
@@ -62,6 +65,7 @@ const Signup = ()=> {
                     <Button variant="dark" type="submit" className="w-100" onClick={handleSubmit}>
                         SignUp
                     </Button>
+                    {displayName && <p id="display">New user signed up: {displayName}</p>}
                 </Form>
             </div>
 
