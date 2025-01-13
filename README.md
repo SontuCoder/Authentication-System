@@ -86,5 +86,5 @@ This project provides a secure user authentication system, which can be used in 
 
 
 ## Contact
-- Email: [your.email@example.com](mailto:subhadipmaity211@gmail.com)
-- GitHub: [YourUsername](https://github.com/SontuCoder)
+- Email: [subhadipmaity211@gmail.com](mailto:subhadipmaity211@gmail.com)
+- GitHub: [SontuCoder](https://github.com/SontuCoder)
