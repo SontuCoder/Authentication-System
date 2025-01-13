@@ -8,7 +8,6 @@ async function getUser(req, res) {
             console.log("User not found in the database"); 
             return res.status(404).json({ message: "User not found" });
         }
-
         res.json(user);
     } catch (error) {
         console.error("Error in getUser function:", error); 

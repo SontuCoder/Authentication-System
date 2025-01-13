@@ -1,56 +1,90 @@
 # Secure User Authentication System
+
+<img src='./my-react-app/public/logo.jpg' style='width: 50px; height:50px'>
 ## By, Subhadip Maity; 27th, Aug - 3rd, Sep 2024
-<h2>Overview</h2>
+
+## Description
 This project is a secure user authentication system built with Node.js and React. It includes functionalities for user signup, login, and token-based authentication using JSON Web Tokens (JWT).
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Images](#images)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
 
-<h2>Features</h2>
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/SontuCoder/Authentication-System.git
+    ```
+2. Install dependencies:
+    ```bash
+    cd BackEnd
+    ```
 
-<dl>
-    <dt>User Signup:</dt><dd>- Register new users with email, name, and password.</dd>
-    <dt>User Login:</dt><dd>- Authenticate users with their credentials and issue JWT tokens.</dd>
-    <dt>Token Authentication:</dt><dd>- Protect routes using JWT for secure access.</dd>
-    <dt>Token Refresh:</dt><dd>- Refresh expired tokens with a refresh token mechanism.</dd>
-</dl>
+    ```bash
+    npm install
+    ```
 
-<h2>Technologies Used</h2>
+    ```bash
+    cd ../
+    ```
 
-<dl>
-    <dt>Backend:</dt><dd>- Node.js, Express, MongoDB.</dd>
-    <dt>Frontend:</dt><dd>- React, Bootstrap.</dd>
-    <dt>Authentication:</dt><dd>-  JWT, bcrypt.</dd>
-</dl>
+    ```bash
+    cd my-react-app
+    ```
 
-<h3>For Run It</h3>
-Clone the Repository
-git clone https://github.com/SontuCoder/PRODIGY_WD_01.git
-<br>
-cd secure-user-authentication-system
-<br><br>
-<h5>Install Backend Dependencies</h5>
-<br>
-Navigate to the backend directory and install dependencies:
-<br>
-cd BackEnd
-<br>
-npm install
-<br>
-<h5>Install Frontend Dependencies</h5>
-<br>
-Navigate to the frontend directory and install dependencies:
-<br>
-cd ../my-react-app
-<br>
-npm install
+    ```bash
+    npm install
+    ```
 
-<br><br>
-<h5>Start the Backend Server</h5>
-<br>
-node app.js
-<br>
-<h5>Start the Frontend Application</h5>
-<br>
-npm start
-<br>
-<br>
-<h5>Contact</h5>
-For any questions or suggestions, you can reach me at "subhadipmaity211@gmail.com".
+    ##### Start the Backend Server
+    ```bash
+    node app.js
+    ```
+
+    ##### Start the Frontend Application
+    ```brsh
+    npm start
+    ```
+
+## Usage
+This project provides a secure user authentication system, which can be used in various types of web applications requiring user sign-up, login, and secure access to resources. The system leverages JSON Web Tokens (JWT) for secure authentication.
+
+## Features
+
+- **User Signup:**  
+  - Register new users with email, name, and password.
+
+- **User Login:**  
+  - Authenticate users with their credentials and issue JWT tokens.
+
+- **Token Authentication:**  
+  - Protect routes using JWT for secure access.
+
+- **Token Refresh:**  
+  - Refresh expired tokens with a refresh token mechanism.
+
+## Images
+1. Login-page
+    <img src='./my-react-app/public/Xiaomi-Mi-11i-localhost (1).png' style='width: 300px;'>
+
+2. SignUp-page
+    <img src='./my-react-app/public/Xiaomi-Mi-11i-localhost.png' style='width: 300px;'>
+
+## Technologies Used
+
+- **Backend:**  
+  - Node.js, Express, MongoDB.
+
+- **Frontend:**  
+  - React, Bootstrap.
+
+- **Authentication:**  
+  - JWT, bcrypt.
+
+
+## Contact
+- Email: [your.email@example.com](mailto:subhadipmaity211@gmail.com)
+- GitHub: [YourUsername](https://github.com/SontuCoder)
