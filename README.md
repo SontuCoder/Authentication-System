@@ -1,7 +1,7 @@
 # Secure User Authentication System
 
 <img src='./my-react-app/public/logo.jpg' style='width: 50px; height:50px'>
-## By, Subhadip Maity; 27th, Aug - 3rd, Sep 2024
+By, Subhadip Maity; 27th, Aug - 3rd, Sep 2024
 
 ## Description
 This project is a secure user authentication system built with Node.js and React. It includes functionalities for user signup, login, and token-based authentication using JSON Web Tokens (JWT).
@@ -86,5 +86,5 @@ This project provides a secure user authentication system, which can be used in 
 
 
 ## Contact
-- Email: [your.email@example.com](mailto:subhadipmaity211@gmail.com)
-- GitHub: [YourUsername](https://github.com/SontuCoder)
+- Email: [subhadipmaity211@gmail.com](mailto:subhadipmaity211@gmail.com)
+- GitHub: [SontuCoder](https://github.com/SontuCoder)
